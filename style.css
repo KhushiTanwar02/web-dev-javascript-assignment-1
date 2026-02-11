@@ -1,0 +1,118 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a8dff, #63cdda);
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Dashboard layout */
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+/* Card style sections */
+.form-section,
+.events-section,
+.demo-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form and Events take equal space */
+.form-section,
+.events-section {
+    flex: 1;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 70px;
+    resize: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a67d8;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #434190;
+}
+
+/* Controls buttons row */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.controls button {
+    flex: 1;
+}
+
+/* Event Container */
+#eventContainer {
+    margin-top: 10px;
+}
+
+/* Empty State */
+.empty-state {
+    color: gray;
+    font-style: italic;
+}
+
+/* Demo Section */
+.demo-section {
+    margin-top: 20px;
+}
+
+.demo-box {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.demo-content {
+    font-weight: bold;
+    color: #5a67d8;
+}

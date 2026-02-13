@@ -104,7 +104,6 @@ addSampleBtn.addEventListener("click", function () {
 
 
 document.addEventListener("keydown", function () {
-    demoContent.textContent = "You pressed a key! 🎉";
+    demoContent.textContent = "You pressed a key! ";
     demoContent.style.backgroundColor = "lightblue";
 });
-
